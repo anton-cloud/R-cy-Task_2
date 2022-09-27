@@ -1,0 +1,84 @@
+.tables-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+table {
+  width: 100%;
+  color: #fff;
+  border-collapse: collapse;
+}
+
+table thead {
+  background-color: gray;
+}
+
+table thead tr th {
+  padding: 10px;
+}
+
+table thead tr th:not(:first-child) {
+  text-align: left;
+}
+
+.notes-table thead tr th:first-child {
+  min-width: 150px;
+}
+
+.notes-table thead tr th:last-child {
+  text-align: end;
+  min-width: 60px;
+}
+
+.notes-table tbody tr td:last-child {
+  text-align: end;
+}
+
+tbody tr td {
+  border-top: 5px solid #fff;
+  background-color: lightgray;
+  padding: 10px 10px 5px 10px;
+}
+
+/* button */
+.btn {
+  position: relative;
+  z-index: 1;
+
+  padding: 0 2px;
+
+  background: transparent;
+  background-color: transparent;
+  border: none;
+
+  cursor: pointer;
+}
+
+.btn .fa-sharp {
+  position: relative;
+  z-index: -1;
+  color: gray;
+}
+
+.first-col div {
+  display: inline;
+  background-color: gray;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.notes-archive-table__item {
+  cursor: pointer;
+}
+
+.notes-archive-table__item_chacked,
+.notes-archive-table__item:hover {
+  color: lightskyblue;
+}
+
+.create-node-btn-wrapper {
+  text-align: end;
+  padding: 10px 0;
+}
