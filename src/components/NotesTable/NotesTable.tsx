@@ -21,7 +21,7 @@ const NotesTable: React.FC = () => {
               <th>Category</th>
               <th>Content</th>
               <th>Dates</th>
-              <th>
+              <th className="notes-title-icons">
                 <i className="fa-sharp fa-solid fa-download"></i>
                 <i className="fa-sharp fa-solid fa-trash"></i>
               </th>

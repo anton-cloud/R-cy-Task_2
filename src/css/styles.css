@@ -42,6 +42,10 @@ tbody tr td {
   padding: 10px 10px 5px 10px;
 }
 
+.notes-title-icons i:first-child {
+  padding-right: 5px;
+}
+
 /* button */
 .btn {
   position: relative;
@@ -67,6 +71,7 @@ tbody tr td {
   background-color: gray;
   border-radius: 50%;
   padding: 5px;
+  margin-right: 10px;
 }
 
 .notes-archive-table__item {
